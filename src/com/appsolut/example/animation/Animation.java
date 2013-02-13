@@ -42,4 +42,11 @@ public class Animation extends Activity {
 			frameAnimation.stop();
 		}
 	}
+    @Override
+    protected void onResume() {
+    	// TODO Auto-generated method stub
+    	super.onResume();
+    }
+    
+    protected void onPause() {};
 }
